@@ -1,1 +1,17 @@
-
+<addons><addon id="game.example" name="Example" provider-name="Potion" version="0.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>executable game</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Potionloader Payload Example</summary>
+    <description lang="en">Potionloader is a POC Xbox One payload delivery system using KODI.</description>
+    <assets>
+      <icon>icon.jpg</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>fanart.jpg</screenshot>
+    </assets>
+  </extension>
+</addon></addons>
