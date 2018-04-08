@@ -14,4 +14,21 @@
       <screenshot>fanart.jpg</screenshot>
     </assets>
   </extension>
+</addon>
+<addon id="plugin.program.sysmenu" name="System Menu" provider-name="Potion" version="0.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>executable game</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Potionloader System Menu</summary>
+    <description lang="en">Potionloader homebrew system menu. Used to call system functions and perform basic tasks such as reboot, quit app, launch different app.</description>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>fanart.jpg</screenshot>
+    </assets>
+  </extension>
 </addon></addons>
